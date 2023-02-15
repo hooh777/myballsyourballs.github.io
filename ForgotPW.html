@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Forgot Password</title>
+		<script type = "text/javascript">
+			function check_pw(){
+				if (document.getElementById('newPassword').value 
+				!= document.getElementById('confirmPassword').value){
+					alert("Password do not match");
+					return false;
+				}
+				else{
+					alert("You have successfully reset your password!");
+					return true;
+				}
+			}
+		</script>
+	</head>
+	  
+
+	<body>
+		  <link rel="stylesheet" href="Detail file/ForgotPW.css" type="text/css">
+		  	<div class="menu">
+
+		<ul>
+			<li>
+				<a href="index.html">Home</a>
+				<ul class="sub">
+				</ul>
+			</li>
+		</ul>
+
+		<ul>
+			<li>
+				<a href="#">Football Clubs </a>
+				<ul class="sub">
+					<li><a href="Footballclub.html">Premier League 2022</a>
+					</li>
+				</ul>
+			</li>
+		</ul>
+
+
+		<ul>
+			<li>
+				<a href="#">Order</a>
+				<ul class="sub">
+					<li><a href="Order form.html">Order Souvenir</a></li>
+				</ul>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="#">Activity</a>
+				<ul class="sub">
+					<li><a href="ClubActivity.html">Club Activity</a></li>
+					<li><a href="JoinActivity.html">Join Activity</a></li>
+				</ul>
+			</li>
+		</ul>
+
+		<ul>
+			<li>
+				<a href="#">Account</a>
+				<ul class="sub">
+					<li><a href="CreateAccount.html">Create Account</a></li>
+					<li><a href="Login.html">Login</a></li>
+					<li><a href="ForgotPW.html">Forgot Password</a></li>
+					<li><a href="ContactUs.html">Contact Us</a></li>
+				</ul>
+			</li>
+		</ul>
+
+	</div>
+		  <center>
+			<h1 style="color:white" />Forgot Password</h1>
+			<h2 style="color:white" />You can change your password here</h2>
+		  </center>
+		  <form method="post" form onSubmit="return check_pw()">
+			<div class="container">
+				<label>Username : </label>
+				<input type="text" placeholder="Enter Username" name="username" required>
+				<label for="newPassword">New Password:</label>
+				<input type="password" id="newPassword" name="newPassword" title="New password" minlength="8" maxlength="8" required="required"/>
+				<label for="confirmPassword">Confirm Password:</label>
+				<input type="password" id="confirmPassword" name="confirmPassword" title="Confirm new password" minlength="8" maxlength="8" required="required"/>
+				<button type="submit" name="change password">Change Password</button>
+			</div>
+		  </form>
+	 </body>
+ </html>

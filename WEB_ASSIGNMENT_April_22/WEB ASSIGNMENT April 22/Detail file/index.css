@@ -1,0 +1,93 @@
+
+#header, #nav, #main, #aside, #footer { 
+background: #DDF; border: 1px solid black; border-radius: 8px; margin: 10px; padding: 15px; }
+
+#flex-container { display: flex; flex-flow: row wrap; }
+
+#header { order: 1; height: auto; width: 100%;  background: transparent; color: white;}
+#header img { float: left; margin-right : 10px; }
+#header div { clear: none; }
+#main { order: 3; height: auto; background: transparent; width: 10px;-webkit-column-span: all; flex-grow: 1; color: white;}
+#aside { order: 4; width: 500px; background: transparent;}
+#footer { order: 5; height: 310px; width: 100%; background: transparent;text-align: center;}
+
+@media only screen and (max-width: 1000px) {
+  #main { height: auto; background: white;  color: black;}
+  #aside { order: 2; width: 100px; background: lightblue; color: white;}
+}
+  #main h1 { line-height: 0.2; -webkit-column-span: all;  color: black;}
+
+@media only screen and (max-width: 800px) {
+  #header {background: white; color:black;}
+  #main { height: auto; background: black; color: white; }
+  #main h1 { line-height: 0.2; -webkit-column-span: all;  color: white;}
+  #aside { display: none; }
+}
+
+
+
+h1 {
+	text-align: center;
+}
+
+body {
+	margin: 0;
+	background-image: url("INDEX images/Background2.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	font-family: Helvetica;
+}
+
+.menu ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	width: 200px;
+	background-color: black;
+	border-radius: 10px;
+	display: inline-block;
+}
+
+.menu a {
+	text_decoration: none;
+	display: block;
+	padding: 10px 20px;
+	line-height: 1.2em;
+	color: white;
+}
+
+.menu a:hover {
+	background-color: orange;
+	color: black;
+}
+
+.menu .sub {
+	position: absolute;
+	width: 200px;
+	top: 38px;
+	background-color: lightblue;
+	color: black;
+}
+
+.menu .sub a:hover {
+	background-color: lightblue;
+}
+
+.menu .sub li {
+	overflow: hidden;
+	height: 0px;
+	transition: height 500ms;
+}
+
+.menu ul li:hover .sub li {
+	height: 40px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+}

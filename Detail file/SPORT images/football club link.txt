@@ -1,0 +1,43 @@
+Manchester_City_FC	<a href="https://www.mancity.com/">
+
+Manchester_United_FC	<a href="https://www.manutd.com/">
+
+Liverpool_FC		<a href="https://www.liverpoolfc.com/">
+
+Chelsea_FC		<a href="https://www.chelseafc.com/en">
+
+Arsenal_FC		<a href="https://www.arsenal.com/">
+
+Tottenham_Hotspur	<a href="https://www.tottenhamhotspur.com/">
+
+Everton_F.C		<a href="https://www.evertonfc.com/">
+
+West_Ham_United_FC	<a href="https://www.whufc.com/">
+
+Leicester		<a href="https://www.lcfc.com/">
+
+Crystal_Palace_FC	<a href="https://www.cpfc.co.uk/">
+
+FC_Southampton		<a href="https://www.southamptonfc.com/">
+
+Burnley_FC		<a href="https://www.burnleyfootballclub.com/">
+
+Newcastle_United	<a href="https://www.nufc.co.uk/">
+
+Brighton_Hove		<a href="https://www.brightonandhovealbion.com/">
+
+Wolver			<a href="https://www.wolves.co.uk/">
+
+Leeds_United		<a href="https://www.leedsunited.com/">
+
+Aston_Villa		<a href="https://www.avfc.co.uk/">
+
+Norwich_City		<a href="https://www.canaries.co.uk/">
+
+Watford_crest		<a href="https://www.watfordfc.com/">
+
+Brentford_FC		<a href="https://www.brentfordfc.com/">
+
+
+
+
